@@ -1,0 +1,84 @@
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin:0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color : #888888;
+  border-top: 1px solid #eeeeee;
+  padding: 16px 0;
+  margin-top: 16px
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1{
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+}
+
+#error {
+  color:red
+}
+
+input {
+  border : 1px solid #cccccc;
+  padding: 8px;
+  width:50%;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: #dedede;
+  padding: 8px
+}
+
+table.gridtable {
+  margin-top: 20px;
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
