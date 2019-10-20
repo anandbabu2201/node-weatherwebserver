@@ -1,2 +1,2 @@
 # node-weatherwebserver
-This is get the weather of the location
+This app is used to get the weather of the location
