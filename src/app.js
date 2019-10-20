@@ -51,7 +51,7 @@ app.get('/weather',(req,res)=>{
     if(err) return res.send({err})
     forecast(geoData,(err,data)=>{
       if(err) return res.send({err})
-       res.send({...data,address:req.query.address})
+       res.send({...data,Address:req.query.address})
     })
  })
 })

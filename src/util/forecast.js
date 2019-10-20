@@ -9,10 +9,12 @@ const forecast = ({latitude,longitude,location},callback)=>{
       }
       else {
         callback(undefined,{
-          forecast: res.body.daily.data[0].summary,
-          location:location,
-          temperature :res.body.currently.temperature,
-          precipProbability:res.body.currently.precipProbability
+          Forecast: res.body.daily.data[0].summary,
+          Location:location,
+          Temperature :res.body.currently.temperature,
+          HighTemperature:res.body.daily.data[0].temperatureHigh,
+          LowTemperature:res.body.daily.data[0].temperatureLow,
+          PrecipProbability:res.body.currently.precipProbability
         })
       }
      })
